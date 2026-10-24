@@ -2,12 +2,12 @@
 
 int main() {
     
-    int x,y;
-    scanf("%d %d", &x, &y);
+   long long int x,y;
+    scanf("%lld %lld", &x, &y);
 
-    printf("%d + %d = %d\n",x,y,x+y);
-    printf("%d * %d = %d\n",x,y,x*y);
-    printf("%d - %d = %d\n",x,y,x-y);
+    printf("%lld + %lld = %d\n",x,y,x+y);
+    printf("%lld * %lld = %lld\n",x,y,x*y);
+    printf("%lld - %lld = %d\n",x,y,x-y);
 
     return 0;
 }
